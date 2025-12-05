@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Zaliczenie</string>
+    <string name="zatwierd">Zatwierdź</string>
+    <string name="generuj_has_o">Generuj hasło</string>
+    <string name="znaki_specjalne">Znaki specjalne</string>
+    <string name="cyfry">Cyfry</string>
+    <string name="ma_e_i_wielkie_litery">Małe i wielkie litery</string>
+    <string name="ile_znak_w">Ile znaków?</string>
+    <string name="generowanie_has_a">Generowanie hasła</string>
+    <string name="stanowisko">Stanowisko</string>
+    <string name="nazwisko">Nazwisko</string>
+    <string name="imi">Imię</string>
+    <string name="dane_pracownika">Dane pracownika</string>
 </resources>
