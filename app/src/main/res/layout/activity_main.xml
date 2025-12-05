@@ -20,11 +20,13 @@
         android:layout_margin="5dp"
          />
     <EditText
+        android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/imi"
         android:layout_margin="5dp"/>
     <EditText
+        android:id="@+id/surename"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/nazwisko"
@@ -56,9 +58,11 @@
         android:layout_margin="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/ile_znak_w"/>
+        android:hint="@string/ile_znak_w"
+        android:id="@+id/length"/>
 
     <CheckBox
+        android:id="@+id/hashUpper"
 
         android:layout_margin="5dp"
         android:checked="true"
@@ -66,11 +70,13 @@
         android:layout_height="wrap_content"
         android:text="@string/ma_e_i_wielkie_litery"/>
     <CheckBox
+        android:id="@+id/hashNum"
         android:layout_margin="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/cyfry"/>
     <CheckBox
+        android:id="@+id/hashSpecial"
         android:layout_margin="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -81,13 +87,15 @@
         android:text="@string/generuj_has_o"
         android:layout_gravity="right"
         android:layout_margin="10dp"
+        android:id="@+id/btnGen"
         android:backgroundTint="#B5C7EB"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/zatwierd"
         android:layout_margin="20dp"
-        android:backgroundTint="#B5C7EB"/>
+        android:backgroundTint="#B5C7EB"
+        android:id="@+id/btnConfirm"/>
 
 
 
